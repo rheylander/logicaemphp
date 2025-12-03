@@ -40,7 +40,7 @@
     // Formata o número para usar vírgula como separador decimal
     $preco_formatado = number_format($preco, 2, ',', '.' );
  
-    // Exisbe o Resultado
+    // Exibe o Resultado
     echo "$rua, <br> Preço R$ $preco_formatado <br> <br>";
  
     // Operadores de Comparação

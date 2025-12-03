@@ -26,6 +26,7 @@
                     echo "Resultado da divisão é: $divisao"; echo "<br>";
                     echo "Resultado do resto da divisão de $a e $b é: $restodivisao"; echo "<br";
 
+                
             ?>
     </body>
 </html>
