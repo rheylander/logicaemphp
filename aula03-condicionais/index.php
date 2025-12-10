@@ -8,36 +8,45 @@
 <body>
     <?php
     // condicional if - simples
-    if(1 < 2){
+    if(1 < 2)
+        
+        {
         echo "O número 1 é menor. <br>";
-    }
+        }
  
     $idade = 18;
  
-    if($idade >= 18) {
+    if($idade >= 18)
+         {
         echo "Você é maior de idade. <br>";
-    }
+        }
  
     // condicional else - composta
     $a = 10;
     $b = 14;
  
-    if($a == $b){
+    if($a == $b)
+        {
         echo "As variáveis são iguais.";
-    } else{
+        } else
+        
+        {
         echo "As variáveis são diferentes.";
-    }
+        }
+
+
     echo "<br>";
  
     // condicional elseif
     $idadepessoa = 25;
-    if($idadepessoa < 13){
-        echo "Você é uma criança.";
-    } elseif ($idadepessoa >= 20  && $idadepessoa <= 59) {
-        echo "Você é um adulto.";
-    }else {
-        echo "Você é idoso.";
-    }
+    if($idadepessoa < 13)
+        {   echo "Você é uma criança."; } 
+        
+    elseif ($idadepessoa >= 20  && $idadepessoa <= 59) 
+        {   echo "Você é um adulto.";}
+    
+    else {  echo "Você é idoso.";    }
+
     echo "<br>";
  
         // condicional switch
