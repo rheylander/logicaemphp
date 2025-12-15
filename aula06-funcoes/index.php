@@ -40,7 +40,7 @@
     echo "<br><br>";
     function encontrarMaiorValor($array)
     {
-        return min ($array); // Função max() encontrar o maior valor no array
+        return max ($array); // Função max() encontrar o maior valor no array
     }
 
     $valores = [2, 5, 9, 1, 3] ;
